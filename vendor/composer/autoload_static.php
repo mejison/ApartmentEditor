@@ -321,6 +321,10 @@ class ComposerStaticInit20acf9c0bd3fc198b9d9572ae76ac442
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\GraphQL\\Query\\TemplateQuery' => __DIR__ . '/../..' . '/app/GraphQL/Query/TemplateQuery.php',
+        'App\\GraphQL\\Query\\UsersQuery' => __DIR__ . '/../..' . '/app/GraphQL/Query/UsersQuery.php',
+        'App\\GraphQL\\Type\\TemplateType' => __DIR__ . '/../..' . '/app/GraphQL/Type/TemplateType.php',
+        'App\\GraphQL\\Type\\UserType' => __DIR__ . '/../..' . '/app/GraphQL/Type/UserType.php',
         'App\\Http\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/AuthController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
@@ -3615,6 +3619,7 @@ class ComposerStaticInit20acf9c0bd3fc198b9d9572ae76ac442
         'Tymon\\JWTAuth\\Validators\\TokenValidator' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Validators/TokenValidator.php',
         'Tymon\\JWTAuth\\Validators\\Validator' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Validators/Validator.php',
         'TypeError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
+        'UserSeeder' => __DIR__ . '/../..' . '/database/seeds/UserSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',

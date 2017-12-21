@@ -119,10 +119,11 @@ return [
     'schemas' => [
         'default' => [
             'query' => [
-
+                'users' => 'App\GraphQL\Query\UsersQuery',
+                'template' => 'App\GraphQL\Query\TemplateQuery',
             ],
             'mutation' => [
-
+                'AddUserTemplate' => 'App\GraphQL\Mutation\AddUserTemplateMutation'
             ]
         ]
     ],
@@ -144,7 +145,8 @@ return [
      * ]
      */
     'types' => [
-
+        'User' => 'App\GraphQL\Type\UserType',
+        'Template' => 'App\GraphQL\Type\TemplateType',
     ],
 
     /*
